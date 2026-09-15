@@ -1,0 +1,89 @@
+.app {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #222;
+}
+
+header {
+  padding: 30px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin-top: 8px;
+  color: #666;
+}
+
+main {
+  padding: 30px 40px;
+}
+
+.map-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.map-section h2 {
+  margin-top: 0;
+}
+
+.map {
+  height: 550px;
+  width: 100%;
+  border-radius: 8px;
+}
+.report-section {
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.report-section h2 {
+  margin-top: 0;
+}
+
+.report-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+}
+
+.report-section label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.report-section input,
+.report-section select,
+.report-section textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.report-section textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.report-section button {
+  width: fit-content;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
